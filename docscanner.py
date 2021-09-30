@@ -3,7 +3,7 @@ import numpy as np
 import mapper
 img = cv.imread('Photos/receipt.jpg')
 #cv.imshow('cat', img)
-#resized = cv.resize(img, (200,200))
+resized = cv.resize(img, (200,200))
 #cv.imshow('resi', resized)
 blank = np.zeros(img.shape, dtype='uint8')
 #cv.imshow('blank', blank)
